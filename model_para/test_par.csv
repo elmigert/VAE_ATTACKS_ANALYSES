@@ -1,0 +1,6 @@
+Experiment Date,Exp Nr,Test Loss,gpu,model,imgsize,zdim,hdim,convlayers,fclayers,inputsize,loadmodel,model_path,metric_test,loss,bs,dataset,KLweight
+21/01/10,0,[69368.36726166931],1,fc,784,20,400,"[(16, 3, 2, 1)]",[100],28,False,None,['original'],infinite,128,mnist,-0.5
+21/01/10,1,[69310.88315862342],1,fc,784,20,400,"[(16, 3, 2, 1)]",[100],28,False,None,['original'],infinite,128,mnist,-0.5
+21/01/10,2,[69616.92651058148],1,fc,784,20,400,"[(16, 3, 2, 1)]",[100],28,False,None,['original'],infinite,128,mnist,-0.5
+21/01/11,3,[0.0],1,fc,784,20,400,"[(16, 3, 2, 1)]",[100],28,False,None,['VAEA'],infinite,128,mnist,-0.5
+21/01/11,4,[0.0],1,fc,784,20,400,"[(16, 3, 2, 1)]",[100],28,False,None,['VAEA'],infinite,128,mnist,-0.5
