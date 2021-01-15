@@ -8,18 +8,42 @@ wish to see the model paramters or reconstructed images, simply copy all the fil
 your own colab notebook folder. Create a new jupyter notebook in google colab and run the following lines:
 
 from google.colab import drive
+
+
 drive.mount('/content/drive')
+
+
 import os
+
+
 !cp drive/MyDrive/"Colab Notebooks"/replay_buffer_v2.py .
+
+
 !cp drive/MyDrive/"Colab Notebooks"/segment_tree.py .
+
+
 !cp drive/MyDrive/"Colab Notebooks"/datasampler.py .
+
+
 !cp drive/MyDrive/"Colab Notebooks"/critic.py .
+
+
 !cp drive/MyDrive/"Colab Notebooks"/model_fc.py .
+
+
 !cp drive/MyDrive/"Colab Notebooks"/model_cnn.py .
+
+
 !cp drive/MyDrive/"Colab Notebooks"/attacks.py .
+
+
 !cp drive/MyDrive/"Colab Notebooks"/linearschedule.py .
+
+
 !cp drive/MyDrive/"Colab Notebooks"/datasampler.py .
+
 !cp drive/MyDrive/"Colab Notebooks"/test.py .
+
 !cp drive/MyDrive/"Colab Notebooks"/train.py .
 
 then u will be ready to run train.py or test.py on your google colab notebook.
