@@ -48,6 +48,9 @@ import os
 
 then u will be ready to run train.py or test.py on your google colab notebook.
 
+for example to train VAE that use cnn and adversarial training with replay buffer against FGSM attack, with default hyper parameters do:
+!python train.py --model cnn --useminimax True --adv FGSM --eps 0.15 --usereplaybuffer True 
+
 for examples of training code, check out Colab Notebooks/train_vae.ipynb
 
 Unfortunately, model weights are too large to be uploaded. if u are interested in seeing the model weight, send me a email xurali@student.ethz.ch and I will share a link to the google drive to u.
