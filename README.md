@@ -2,7 +2,10 @@
 Different VAE networks are tested on attacks. 
 
 
-This code is design to run on google colab, however one can also easily modify it to run locally. To use our model, create a google account and mirror this folder directory in the root directory of your google drive. if you do not wish to see the model paramters or reconstructed images, simply copy all the file in the colab notebook folder to your own colab notebook folder. Create a new jupyter notebook in google colab and run the following lines:
+This code is design to run on google colab, however one can also easily modify it to run locally. To use our model, 
+create a google account and mirror this folder directory in the root directory of your google drive. if you do not 
+wish to see the model paramters or reconstructed images, simply copy all the file in the colab notebook folder to 
+your own colab notebook folder. Create a new jupyter notebook in google colab and run the following lines:
 
 from google.colab import drive
 drive.mount('/content/drive')
